@@ -15,7 +15,7 @@ import static io.restassured.RestAssured.baseURI;
 import static io.restassured.RestAssured.given;
 
 
-public class Oguzhan_Campus_RestAPI extends {
+public class Oguzhan_RestAPI {
 
 
     String url = "https://test.mersys.io";
