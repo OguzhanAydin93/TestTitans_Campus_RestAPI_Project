@@ -13,7 +13,7 @@ import java.util.Map;
 import static io.restassured.RestAssured.baseURI;
 import static io.restassured.RestAssured.given;
 
-public class BaseParameter {
+public class baseParameter {
 
     public RequestSpecification reqSpec;
     public Faker randomGenerator = new Faker();
