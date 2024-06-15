@@ -1,3 +1,5 @@
+package Oguzhan;
+
 import com.github.javafaker.Faker;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.http.ContentType;
@@ -11,9 +13,9 @@ import java.util.Map;
 
 import static io.restassured.RestAssured.baseURI;
 import static io.restassured.RestAssured.given;
-import static org.hamcrest.Matchers.equalTo;
 
-public class Oguzhan_Campus_RestAPI {
+
+public class Oguzhan_Campus_RestAPI extends {
 
 
     String url = "https://test.mersys.io";
