@@ -55,7 +55,6 @@ public class _US104_Custom_Field {
         response.then().statusCode(200);
         System.out.println(response.getBody().asString());
     }
-
     @Test
     public void _US104_Add_Custom_Field_Test() {
 
@@ -156,7 +155,6 @@ public class _US104_Custom_Field {
        // response.then().statusCode(400);
         System.out.println(response.getBody().asString());
 
-        // Hata mesajını kontrol etmek için
         String responseBody = response.getBody().asString();
         Assert.assertTrue(responseBody.contains("invalid objectId"),
                 "Response body should contain 'invalid objectId' message");
